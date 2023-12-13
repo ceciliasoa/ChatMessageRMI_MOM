@@ -1,19 +1,8 @@
 package project;
 
+import java.awt.Color;
 import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-import javax.swing.JTextField;
-import javax.swing.JPanel;
-import javax.jms.JMSException;
-import javax.swing.BoxLayout;
-import javax.swing.JScrollPane;
-import javax.swing.JButton;
-import javax.swing.ScrollPaneConstants;
-import javax.swing.SwingUtilities;
-
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.rmi.RemoteException;
@@ -23,11 +12,19 @@ import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-import java.util.function.BiConsumer;
-import java.awt.Font;
+
+import javax.jms.JMSException;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JToggleButton;
+import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingConstants;
-import java.awt.Color;
+import javax.swing.SwingUtilities;
 
 
 public class ClientView implements CellListener {
